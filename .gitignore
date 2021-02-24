@@ -48,3 +48,4 @@ jesseduffield/lazynpm/state.yml
 
 !/fcitx5
 /fcitx5/crash.log
+!/vimium.txt
