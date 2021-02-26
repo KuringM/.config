@@ -9,6 +9,12 @@
 ranger/plugins/__pycache__/*
 ranger/colorschemes/__pycache__/*
 ranger/folders.conf
+ranger/colorschemes/__init__.pyo
+ranger/colorschemes/default.pyo
+ranger/plugins/__init__.pyo
+ranger/plugins/devicons.pyo
+ranger/plugins/devicons_linemode.pyo
+ranger/__pycache__/*
 !/kitty/
 !/alacritty/
 !/fish/
@@ -33,11 +39,6 @@ ranger/folders.conf
 !/jesseduffield/lazygit/config.yml
 !/.tmux.conf
 !/tmux/
-ranger/colorschemes/__init__.pyo
-ranger/colorschemes/default.pyo
-ranger/plugins/__init__.pyo
-ranger/plugins/devicons.pyo
-ranger/plugins/devicons_linemode.pyo
 !/pudb/
 /pudb/*
 !/pudb/pudb.cfg
@@ -48,4 +49,3 @@ jesseduffield/lazynpm/state.yml
 
 !/fcitx5
 /fcitx5/crash.log
-!/vimium.txt

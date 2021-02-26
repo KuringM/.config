@@ -54,7 +54,7 @@ map tI lastTab
 map yt duplicateTab
 map <a-p> togglePinTab
 map <a-m> toggleMuteTab
-map x removeTab
+map xx removeTab
 map X restoreTab
 map W moveTabToNewWindow
 map xn closeTabsOnLeft
