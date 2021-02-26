@@ -14,7 +14,7 @@ ranger/colorschemes/default.pyo
 ranger/plugins/__init__.pyo
 ranger/plugins/devicons.pyo
 ranger/plugins/devicons_linemode.pyo
-ranger/__pycache__/*
+ranger/__pycache__/
 !/kitty/
 !/alacritty/
 !/fish/
