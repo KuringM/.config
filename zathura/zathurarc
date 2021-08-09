@@ -70,6 +70,11 @@ set scroll-step 50
 
 
 # Normal mod
+unmap q
+map <C-q> quit
+map f toggle_fullscreen
+map p toggle_presentation
+
 map n scroll left
 map u scroll up
 map e scroll down
@@ -80,9 +85,9 @@ map E navigate next
 
 map = search forward
 map - search backward
-
 map + zoom in
 map _ zoom out
+map z zoom default
 
 map j follow
 map J display_link
@@ -90,13 +95,13 @@ map J display_link
 map k recolor
 map <C-k> jumplist forward
 
-unmap f
-map f toggle_fullscreen
-map p toggle_presentation
 
 # Fullscreen mode
+unmap [fullscreen] q
+map [fullscreen] <C-q> quit
 map [fullscreen] f toggle_fullscreen
 map [fullscreen] p toggle_presentation
+map [fullscreen] d oggle_page_mode
 
 map [fullscreen] n scroll left
 map [fullscreen] u scroll up
@@ -106,16 +111,34 @@ map [fullscreen] i scroll right
 map [fullscreen] U navigate previous
 map [fullscreen] E navigate next
 
+map [fullscreen] = search forward
+map [fullscreen] - search backward
 map [fullscreen] + zoom in
 map [fullscreen] _ zoom out
-map [fullscreen] - zoom default
+map [fullscreen] z zoom default
+
+map [fullscreen] k recolor
 
 # Presentation mode
+unmap [presentation] q
+map [presentation] <C-q> quit
 map [presentation] f toggle_fullscreen
+map [presentation] p toggle_presentation
+map [presentation] d toggle_page_mode
 map [presentation] <Tab> toggle_index
+
+map [presentation] n scroll left
 map [presentation] u navigate previous
 map [presentation] e navigate next
-map [presentation] p toggle_presentation
+map [presentation] i scroll right
+
+map [presentation] = search forward
+map [presentation] - search backward
+map [presentation] + zoom in
+map [presentation] _ zoom out
+map [presentation] z zoom default
+
+map [presentation] k recolor
 
 # Index mode
 map [index] u navigate_index up

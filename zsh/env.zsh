@@ -1,4 +1,5 @@
 export XDG_CONFIG_HOME=$HOME/.config
+export XDG_DATA_HOME=$HOME
 export LOCALBIN=$XDG_CONFIG_HOME/bin
 export PATH=$PATH:$LOCALBIN
 export LOCALPROG=$HOME/prog
