@@ -3,7 +3,14 @@
 /*/
 
 # ... but these:
+
+!/README.md
+!/.gitignore
+
+## neofetch
 !/neofetch/
+
+## ranger
 !/ranger/
 ranger/plugins/__pycache__/*
 ranger/colorschemes/__pycache__/*
@@ -15,8 +22,13 @@ ranger/plugins/devicons.pyo
 ranger/plugins/devicons_linemode.pyo
 ranger/__pycache__/
 
-#!/README.md
-!/.gitignore
+## lazygit
+!/jesseduffield/
+/jesseduffield/lazygit/*
+!/jesseduffield/lazygit/config.yml
+/jesseduffield/lazynpm/state.yml
+
+## zsh
 !/zsh/
 /zsh/*
 !/zsh/fzf
