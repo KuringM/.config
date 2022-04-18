@@ -1,0 +1,24 @@
+# ignore everything
+/*
+/*/
+
+# ... but these:
+!/neofetch/
+!/ranger/
+ranger/plugins/__pycache__/*
+ranger/colorschemes/__pycache__/*
+ranger/folders.conf
+ranger/colorschemes/__init__.pyo
+ranger/colorschemes/default.pyo
+ranger/plugins/__init__.pyo
+ranger/plugins/devicons.pyo
+ranger/plugins/devicons_linemode.pyo
+ranger/__pycache__/
+
+#!/README.md
+!/.gitignore
+!/zsh/
+/zsh/*
+!/zsh/fzf
+!/zsh/conf
+!/zsh/init
