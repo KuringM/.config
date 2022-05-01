@@ -1,6 +1,7 @@
 ## My MacOs config...
 
 ### Important stuff:
+- homebrew
 - lazygit
 - neofetch
 - nvim
@@ -10,7 +11,7 @@
 ---
 
 #### nvim
-
+- Install: `brew install nvim`
 Some dependences
 - Install `pip`, and do `pip install --user pynvim`
 - Install `pip3`, and do `pip3 install --user pynvim`
@@ -19,12 +20,40 @@ Some dependences
 - Install `figlet` for inputing text ASCII art
 
 #### ranger
-
 - image preview with *iterm2* `brew insatll iterm2`
+- image preview with *kitty* 
+	-	`export TERM = xterm-kitty` 
+	- `pip3 install pillow ranger-fm`
+	- convert command in ImageMagick `brew install imagemagick`
 - pdf preview with *pdftoppm* `brew install poppler`
 
-#### zsh
+#### kitty
+- Install: `brew install kitty`
+- Icon: [kitty-icons](https://github.com/DinkDonk/kitty-icon)
 
+#### zathura
+- Link: [homebrew-zathura](https://github.com/zegervdv/homebrew-zathura)
+
+##### Installation steps
+``` zsh
+# install zathura
+brew tap zegervdv/zathura
+brew install zathura
+
+# install poppler plug
+$$ brew install zathura-pdf-poppler
+mkdir -p $(brew --prefix zathura)/lib/zathura
+ln -s $(brew --prefix zathura-pdf-poppler)/libpdf-poppler.dylib $(brew --prefix zathura)/lib/zathura/libpdf-poppler.dylib brew install zathura-pdf-poppler
+mkdir -p $(brew --prefix zathura)/lib/zathura
+ln -s $(brew --prefix zathura-pdf-poppler)/libpdf-poppler.dylib $(brew --prefix zathura)/lib/zathura/libpdf-poppler.dylib
+
+# install mupdf plug
+brew install zathura-pdf-mupdf
+mkdir -p $(brew --prefix zathura)/lib/zathura
+ln -s $(brew --prefix zathura-pdf-mupdf)/libpdf-mupdf.dylib $(brew --prefix zathura)/lib/zathura/libpdf-mupdf.dylib
+```
+
+#### zsh
 Add environment variables in `/etc/zshrc`
 ``` bash
 export ZDOTDIR="$HOME/.config/zsh"

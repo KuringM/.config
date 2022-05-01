@@ -28,6 +28,9 @@ ranger/__pycache__/
 !/jesseduffield/lazygit/config.yml
 /jesseduffield/lazynpm/state.yml
 
+## zathura
+!/zathura/
+
 ## zsh
 !/zsh/
 /zsh/*

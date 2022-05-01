@@ -9,7 +9,7 @@ export PATH=$PATH:$GOPATH/bin
 export NPM_CONFIG_USERCONFIG=$HOME/.config/npm/npmrc
 
 # yarn
-alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/config"'
+# alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/config"'
 
 # homebrew
 export PATH=$PATH:/opt/homebrew/bin
@@ -20,7 +20,8 @@ export PATH=$PATH:/usr/local/bin
 export PATH=$PATH:$HOME/.local/bin
 
 # zsh custom
-export TERM=xterm-256color
+#export TERM=xterm-256color
+export TERM=xterm-kitty
 export TERM_ITALICS=true
 export RANGER_LOAD_DEFAULT_RC="false"
 export ZSH_AUTOSUGGEST_USE_ASYNC=1
@@ -28,3 +29,4 @@ export ZSH_AUTOSUGGEST_MANUAL_REBIND=1
 
 # app env
 export EDITOR=nvim
+export CONFIG_DIR="$HOME/.config/jesseduffield/lazygit/"
