@@ -9,6 +9,9 @@
 - zsh
 
 ---
+
+
+### Some dependences required
 #### lazygit
 - Install: `brew install lazygit`
 Some dependences
