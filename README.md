@@ -9,6 +9,10 @@
 - zsh
 
 ---
+#### lazygit
+- Install: `brew install lazygit`
+Some dependences
+- `git-delta` : `brew intall git-delta`
 
 #### nvim
 - Install: `brew install nvim`
