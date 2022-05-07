@@ -30,3 +30,5 @@ export ZSH_AUTOSUGGEST_MANUAL_REBIND=1
 # app env
 export EDITOR=nvim
 export CONFIG_DIR="$HOME/.config/jesseduffield/lazygit/"
+#export MANPAGER="nvim +Man! --cmd 'let $NVIM_AS_PAGER=1'"
+export MANPAGER="nvim +Man!"
