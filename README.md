@@ -27,12 +27,14 @@ Some dependences
 - Install `figlet` for inputing text ASCII art
 
 #### ranger
-- image preview with *iterm2* `brew insatll iterm2`
-- image preview with *kitty* 
+- image preview with **iterm2** `brew insatll iterm2`
+- image preview with **kitty** 
 	-	`export TERM = xterm-kitty` 
 	- `pip3 install pillow ranger-fm`
 	- convert command in ImageMagick `brew install imagemagick`
-- pdf preview with *pdftoppm* `brew install poppler`
+- pdf preview with **pdftoppm** `brew install poppler`
+- text preview with **bat** `brew install bat`
+- json previe need **jq**	`brew install jq`
 
 #### kitty
 - Install: `brew install kitty`
@@ -48,7 +50,7 @@ brew tap zegervdv/zathura
 brew install zathura
 
 # install poppler plug
-$$ brew install zathura-pdf-poppler
+brew install zathura-pdf-poppler
 mkdir -p $(brew --prefix zathura)/lib/zathura
 ln -s $(brew --prefix zathura-pdf-poppler)/libpdf-poppler.dylib $(brew --prefix zathura)/lib/zathura/libpdf-poppler.dylib brew install zathura-pdf-poppler
 mkdir -p $(brew --prefix zathura)/lib/zathura
@@ -62,14 +64,14 @@ ln -s $(brew --prefix zathura-pdf-mupdf)/libpdf-mupdf.dylib $(brew --prefix zath
 
 #### zsh
 Add environment variables in `/etc/zshrc`
-``` bash
+``` zsh
 export ZDOTDIR="$HOME/.config/zsh"
 export ZIM_HOME="$HOME/.config/zim"
 ```
 
 Initial configuration
 
-``` bash
+``` zsh
 chsh -s /bin/zsh "$name" >/dev/null 2>&1
 sudo -u "$name" mkdir -p "$HOME/.local/share/zsh/"
 sudo -u "$name" touch "$HOME/.local/share/zsh/history"
