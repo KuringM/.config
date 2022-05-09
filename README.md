@@ -35,6 +35,7 @@ Some dependences
 - pdf preview with **pdftoppm** `brew install poppler`
 - text preview with **bat** `brew install bat`
 - json previe need **jq**	`brew install jq`
+- `highlight`
 
 #### kitty
 - Install: `brew install kitty`
