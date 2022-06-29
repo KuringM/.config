@@ -7,3 +7,4 @@
 : ${ZIM_HOME=${HOME}/zim}
 # }}} End configuration added by Zim install
 
+. "$HOME/.cargo/env"

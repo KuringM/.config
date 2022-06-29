@@ -13,6 +13,13 @@
 ## neofetch
 !/neofetch/
 
+## mpd
+!/mpd/
+
+## ncmpcpp
+!/ncmpcpp/
+ncmpcpp/error.log
+
 ## ranger
 !/ranger/
 ranger/plugins/__pycache__/*
