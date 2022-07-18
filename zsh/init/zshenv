@@ -4,7 +4,7 @@
 #
 
 # Define Zim location
-: ${ZIM_HOME=${HOME}/zim}
+: ${ZIM_HOME=${HOME}/.config/zim}
 # }}} End configuration added by Zim install
 
 . "$HOME/.cargo/env"
