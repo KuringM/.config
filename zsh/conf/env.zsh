@@ -5,6 +5,9 @@ export GOBIN=$HOME/Workspaces/prog/go/bin
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$GOPATH/bin
 
+# python
+export PATH=$PATH:/Library/Frameworks/Python.framework/Versions/3.10/bin
+
 # npm
 export NPM_CONFIG_USERCONFIG=$HOME/.config/npm/npmrc
 
