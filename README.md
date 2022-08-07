@@ -77,11 +77,9 @@ chsh -s /bin/zsh "$name" >/dev/null 2>&1
 sudo -u "$name" mkdir -p "$HOME/.local/share/zsh/"
 sudo -u "$name" touch "$HOME/.local/share/zsh/history"
 sudo -u "$name" ln $HOME/.config/zsh/init/zshenv $HOME/.config/zsh/.zshenv
-sudo -u "$name" cp $HOME/.config/zsh/init/zshrc $HOME/.config/zsh/.zshrc
+sudo -u "$name" ln $HOME/.config/zsh/init/zshrc $HOME/.config/zsh/.zshrc
 sudo -u "$name" ln $HOME/.config/zsh/init/zlogin $HOME/.config/zsh/.zlogin
-sudo -u "$name" cp $HOME/.config/zsh/init/zimrc $HOME/.config/zsh/.zimrc
+sudo -u "$name" ln $HOME/.config/zsh/init/zimrc $HOME/.config/zsh/.zimrc
 sudo -u "$name" mkdir -p "$HOME/.config/zim/"
-sudo -u "$name" cp $HOME/.config/zsh/init/zimfw.zsh $HOME/.config/zim
+sudo -u "$name" ln $HOME/.config/zsh/init/zimfw.zsh $HOME/.config/zim
 ```
-
-

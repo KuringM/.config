@@ -23,8 +23,8 @@ export PATH=$PATH:/usr/local/bin
 export PATH=$PATH:$HOME/.local/bin
 
 # zsh custom
-#export TERM=xterm-256color
-export TERM=xterm-kitty
+# export TERM=xterm-256color
+# export TERM=xterm-kitty
 export TERM_ITALICS=true
 export RANGER_LOAD_DEFAULT_RC="false"
 export ZSH_AUTOSUGGEST_USE_ASYNC=1
