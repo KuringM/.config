@@ -7,6 +7,7 @@ export PATH=$PATH:$GOPATH/bin
 
 # python
 export PATH=$PATH:/Library/Frameworks/Python.framework/Versions/3.10/bin
+export PATH=$PATH:$HOME/Library/Python/3.10/bin
 
 # npm
 export NPM_CONFIG_USERCONFIG=$HOME/.config/npm/npmrc
