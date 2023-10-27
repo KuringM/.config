@@ -47,3 +47,6 @@ ranger/__pycache__/
 !/zsh/fzf
 !/zsh/conf
 !/zsh/init
+
+## luarocks
+!/luarocks/

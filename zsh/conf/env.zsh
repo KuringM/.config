@@ -12,6 +12,12 @@ export PATH=$PATH:$HOME/Library/Python/3.10/bin
 # npm
 export NPM_CONFIG_USERCONFIG=$HOME/.config/npm/npmrc
 
+#  lua
+export PATH="/opt/homebrew/opt/lua@5.3/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/lua@5.3/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/lua@5.3/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/lua@5.3/lib/pkgconfig"
+
 # yarn
 # alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/config"'
 
